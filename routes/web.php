@@ -22,5 +22,5 @@ Route::get('/work', function () {
 });
 
 Route::get('/work/1', function () {
-    return view('singleProduct');
+    return view('singleProject');
 });
