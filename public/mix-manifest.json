@@ -1,6 +1,4 @@
 {
-    "/js/jqterminal.js": "/js/jqterminal.js",
     "/js/starwave.js": "/js/starwave.js",
-    "/css/custom.css": "/css/custom.css",
-    "/css/jqterminal.css": "/css/jqterminal.css"
+    "/css/custom.css": "/css/custom.css"
 }

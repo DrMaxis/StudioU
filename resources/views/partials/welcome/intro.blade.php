@@ -18,15 +18,6 @@
 
 
                     <img class="overlay-img" style="width:100%;" src="{{asset('assets/imgs/overlays/newtv2-1.png')}}" alt="">
-
-
-                    <div class="tvContainer">
-                            <div id='terminal'></div>
-                        <div class="overlay">AV-1</div>
-                    </div>
-
-                    <input type="checkbox" id="switch" checked>
-                    <label for="switch" class="switch-label">Turn </label>
                 </div>
 
 
