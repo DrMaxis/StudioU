@@ -512,3 +512,80 @@ $screen-background:#121010;
   z-index: 3;
   pointer-events: none;
 }
+
+
+
+
+
+
+
+
+
+/*----------------------------------------*/
+/* 10. Latest Blog CSS
+/*----------------------------------------*/
+.blog-content {
+  background: #fff;
+}
+
+.blog-content-upper {
+  padding: 50px 30px;
+}
+
+.blog-content-lower {
+  border-top: 1px solid #eaeaea;
+  padding: 30px;
+}
+
+.blog-title {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 15px;
+  display: inline-block;
+}
+
+.blog-title:before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #d1d1d1;
+  content: "";
+  width: 44px;
+  height: 1px;
+}
+
+.blog-title:hover a {
+  color: #555;
+}
+
+.blog-content-upper p {
+  line-height: 24px;
+  letter-spacing: .025em;
+  padding: 25px 0 0;
+}
+
+.blog-img a {
+  position: relative;
+  display: block;
+}
+
+.blog-img a:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, .15);
+  opacity: 0
+}
+
+.single-blog:hover .blog-img a:before {
+  opacity: 1;
+}
+
+.blog-area.off-white-bg .single-blog {
+  margin-bottom: 30px;
+}

@@ -316,173 +316,173 @@ canvas {
 
 @-webkit-keyframes flicker {
   0% {
-    opacity: 0.2206662879;
+    opacity: 0.1420635368;
   }
 
   5% {
-    opacity: 0.9883542803;
+    opacity: 0.918356045;
   }
 
   10% {
-    opacity: 0.1552407163;
+    opacity: 0.7159341493;
   }
 
   15% {
-    opacity: 0.5854245018;
+    opacity: 0.6269228101;
   }
 
   20% {
-    opacity: 0.8700839978;
+    opacity: 0.0495332592;
   }
 
   25% {
-    opacity: 0.3156006006;
+    opacity: 0.6631161844;
   }
 
   30% {
-    opacity: 0.2590631595;
+    opacity: 0.1650764395;
   }
 
   35% {
-    opacity: 0.0941030193;
+    opacity: 0.786285256;
   }
 
   40% {
-    opacity: 0.6420055674;
+    opacity: 0.9898786668;
   }
 
   45% {
-    opacity: 0.7978252467;
+    opacity: 0.1123561951;
   }
 
   50% {
-    opacity: 0.8429265257;
+    opacity: 0.7892305915;
   }
 
   55% {
-    opacity: 0.2003459702;
+    opacity: 0.2020482167;
   }
 
   60% {
-    opacity: 0.082067219;
+    opacity: 0.9856148301;
   }
 
   65% {
-    opacity: 0.506289853;
+    opacity: 0.0195272875;
   }
 
   70% {
-    opacity: 0.8181577438;
+    opacity: 0.172146893;
   }
 
   75% {
-    opacity: 0.6697589051;
+    opacity: 0.2816287749;
   }
 
   80% {
-    opacity: 0.7037770859;
+    opacity: 0.5728929607;
   }
 
   85% {
-    opacity: 0.4382702341;
+    opacity: 0.5271597199;
   }
 
   90% {
-    opacity: 0.5855020548;
+    opacity: 0.7009740155;
   }
 
   95% {
-    opacity: 0.9161076863;
+    opacity: 0.8360446853;
   }
 
   100% {
-    opacity: 0.433430449;
+    opacity: 0.2085149371;
   }
 }
 
 @keyframes flicker {
   0% {
-    opacity: 0.2206662879;
+    opacity: 0.1420635368;
   }
 
   5% {
-    opacity: 0.9883542803;
+    opacity: 0.918356045;
   }
 
   10% {
-    opacity: 0.1552407163;
+    opacity: 0.7159341493;
   }
 
   15% {
-    opacity: 0.5854245018;
+    opacity: 0.6269228101;
   }
 
   20% {
-    opacity: 0.8700839978;
+    opacity: 0.0495332592;
   }
 
   25% {
-    opacity: 0.3156006006;
+    opacity: 0.6631161844;
   }
 
   30% {
-    opacity: 0.2590631595;
+    opacity: 0.1650764395;
   }
 
   35% {
-    opacity: 0.0941030193;
+    opacity: 0.786285256;
   }
 
   40% {
-    opacity: 0.6420055674;
+    opacity: 0.9898786668;
   }
 
   45% {
-    opacity: 0.7978252467;
+    opacity: 0.1123561951;
   }
 
   50% {
-    opacity: 0.8429265257;
+    opacity: 0.7892305915;
   }
 
   55% {
-    opacity: 0.2003459702;
+    opacity: 0.2020482167;
   }
 
   60% {
-    opacity: 0.082067219;
+    opacity: 0.9856148301;
   }
 
   65% {
-    opacity: 0.506289853;
+    opacity: 0.0195272875;
   }
 
   70% {
-    opacity: 0.8181577438;
+    opacity: 0.172146893;
   }
 
   75% {
-    opacity: 0.6697589051;
+    opacity: 0.2816287749;
   }
 
   80% {
-    opacity: 0.7037770859;
+    opacity: 0.5728929607;
   }
 
   85% {
-    opacity: 0.4382702341;
+    opacity: 0.5271597199;
   }
 
   90% {
-    opacity: 0.5855020548;
+    opacity: 0.7009740155;
   }
 
   95% {
-    opacity: 0.9161076863;
+    opacity: 0.8360446853;
   }
 
   100% {
-    opacity: 0.433430449;
+    opacity: 0.2085149371;
   }
 }
 
@@ -754,5 +754,76 @@ canvas {
   top: 0;
   z-index: 3;
   pointer-events: none;
+}
+
+/*----------------------------------------*/
+
+/* 10. Latest Blog CSS
+/*----------------------------------------*/
+
+.blog-content {
+  background: #fff;
+}
+
+.blog-content-upper {
+  padding: 50px 30px;
+}
+
+.blog-content-lower {
+  border-top: 1px solid #eaeaea;
+  padding: 30px;
+}
+
+.blog-title {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 15px;
+  display: inline-block;
+}
+
+.blog-title:before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #d1d1d1;
+  content: "";
+  width: 44px;
+  height: 1px;
+}
+
+.blog-title:hover a {
+  color: #555;
+}
+
+.blog-content-upper p {
+  line-height: 24px;
+  letter-spacing: 0.025em;
+  padding: 25px 0 0;
+}
+
+.blog-img a {
+  position: relative;
+  display: block;
+}
+
+.blog-img a:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.15);
+  opacity: 0;
+}
+
+.single-blog:hover .blog-img a:before {
+  opacity: 1;
+}
+
+.blog-area.off-white-bg .single-blog {
+  margin-bottom: 30px;
 }
 
