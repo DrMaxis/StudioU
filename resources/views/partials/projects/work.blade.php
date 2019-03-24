@@ -7,46 +7,26 @@
                 <!--/-/-/-/-/-/-/-/-/ 
                         Begin Single Banner  
                     -/-/-/-/-/-/-/-/-/-->
+
+                    @foreach($works as $work) 
                     <div class="col-sm-5 img-banner-r skewl ">
                    
                            
                             
                             <div class="img-banner-content-r">
           
-                            <a href="#">
+                            <a href="{{route('single-project', $work->slug)}}">
                           
-                                <img class="banner-main-img" src="{{ asset('storage/assets/imgs/no-img.jpg')}}" alt="project-banner">
+                                <img class="banner-main-img" src="{{contentImage($work->image)}}" alt="project-banner">
                             </a>
         
                         
                         </div>
                     </div>
+                    @endforeach
                 <!--/-/-/-/-/-/-/-/-/ 
                         End Single Banner  
                     -/-/-/-/-/-/-/-/-/-->
-    
-
-                     <!--/-/-/-/-/-/-/-/-/ 
-                            Begin Single Banner  
-                        -/-/-/-/-/-/-/-/-/-->
-                        <div class="col-sm-5 img-banner-r skewl">
-                       
-                               
-                                
-                                <div class="img-banner-content-r">
-              
-                                <a href="#">
-                              
-                                    <img class="banner-main-img" src="{{ asset('storage/assets/imgs/no-img.jpg')}}" alt="project-banner">
-                                </a>
-            
-                            
-                            </div>
-                        </div>
-                    <!--/-/-/-/-/-/-/-/-/ 
-                            End Single Banner  
-                        -/-/-/-/-/-/-/-/-/-->
-             
             </div>
 
         
@@ -62,7 +42,7 @@
                                     <a href="https://github.com/DrMaxis">Github</a>
                                 </li>
                                 <li class="intro-link list-inline-item">
-                                    <a href="#">Resume</a>
+                                    <a href="{{getResume($aboutMe->resume)}}">Resume</a>
                                 </li>
                             </ul>
                         </div>

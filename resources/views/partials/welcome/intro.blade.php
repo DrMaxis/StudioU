@@ -17,14 +17,13 @@
                         <!-- Single Blog Start -->
                         <div class="single-blog">
                             <div class="blog-img">
-                                <a href="#"><img class="avi-img" src="{{asset('assets/imgs/avi/avi.png')}}" alt="avi-image"></a>
+                                <a href="#"><img class="avi-img" src="{{contentImage($aboutMe->image)}}" alt="avi-image"></a>
                             </div>
 
-                            <h2>Welcome</h2>
+                            <h2>{!!$aboutMe->title!!}</h2>
 
                             <div class="intro-content">
-                                <p class="mt-30">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum temporibus iusto ipsa, asperiores
-                                    voluptas unde aspernatur praesentium in? Aliquam, dolore!</p>
+                                <p class="mt-30">{!!$aboutMe->description!!}</p>
                             </div>
                         </div>
                         <!-- Single Blog End -->
@@ -42,7 +41,7 @@
                                     <a href="https://github.com/DrMaxis">Github</a>
                                 </li>
                                 <li class="intro-link list-inline-item">
-                                    <a href="#">Resume</a>
+                                    <a href="{{getResume($aboutMe->resume)}}">Resume</a>
                                 </li>
                             </ul>
                         </div>
