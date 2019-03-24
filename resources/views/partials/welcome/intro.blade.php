@@ -12,22 +12,25 @@
                 <div class="intro-secton">
 
 
-
+@foreach($aboutMe -> take(1) as $myInfo) 
                     <div class="col-md-6 col-sm-6 m0-a">
                         <!-- Single Blog Start -->
+                        
                         <div class="single-blog">
                             <div class="blog-img">
-                                <a href="#"><img class="avi-img" src="{{contentImage($aboutMe->image)}}" alt="avi-image"></a>
+
+                                <a href="#"><img class="avi-img" src="{{contentImage($myInfo->image)}}" alt="avi-image"></a>
                             </div>
 
-                            <h2>{!!$aboutMe->title!!}</h2>
+                            <h2>{!!$myInfo->title!!}</h2>
 
                             <div class="intro-content">
-                                <p class="mt-30">{!!$aboutMe->description!!}</p>
+                                <p class="mt-30">{!!$myInfo->description!!}</p>
                             </div>
                         </div>
                         <!-- Single Blog End -->
                     </div>
+                    @endforeach
                 </div>
                 <div class="intro-section-links">
                     <div class="col-md-6 col-sm-3 m0-a">
