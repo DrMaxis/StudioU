@@ -23,17 +23,17 @@
 
                                             <div class="catProductSlideViewer" style="overflow:hidden;">
                                                 <div class="owl-carousel">
-                                                    @if($work->images) @foreach(json_decode($work->images, true) as $image)
+                                                    @if($work->showcase_images) @foreach(json_decode($work->showcase_images, true) as $image)
 
                                                     <div class="item">
 
-                                                        <a id="fadeLink" class="sc-img" href="/products/{{$product->slug}}">
+                                                        <a id="fadeLink" class="sc-img" href="/works/{{$work->slug}}">
                             
                                       <img  style="max-width:100%; max-height:100%;" src="{{contentImage($work->image)}}" alt="Showcase Image" />
                                       
                                   </a>
                                                         <div class="inner">
-                                                            <a href="/products/{{$work->slug}}">{{$work->slug}}</a>
+                                                            <a href="/works/{{$work->slug}}">{{$work->slug}}</a>
                                                         </div>
                                                     </div>
                                                     @endforeach
