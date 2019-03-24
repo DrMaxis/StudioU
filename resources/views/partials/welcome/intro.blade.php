@@ -44,7 +44,7 @@
                                     <a href="https://github.com/DrMaxis">Github</a>
                                 </li>
                                 <li class="intro-link list-inline-item">
-                                    <a href="{{getResume($aboutMe->resume)}}">Resume</a>
+                                    <a href="{{getResume($myInfo->resume)}}">Resume</a>
                                 </li>
                             </ul>
                         </div>
