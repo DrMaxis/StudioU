@@ -15,7 +15,7 @@
                             
                             <div class="img-banner-content-r">
           
-                            <a href="{{route('single-project', $work->slug)}}">
+                            <a href="{{route('single-work', $work->slug)}}">
                           
                                 <img class="banner-main-img" src="{{contentImage($work->image)}}" alt="project-banner">
                             </a>
