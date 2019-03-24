@@ -116,6 +116,12 @@
                                     <li><a href="#"></a></li>
                                 </ul>
                             </div>
+                            <div class="col-lg-4 col-md-5 col-sm-6 m0-a">
+                                    <span class="">Go Back</span>
+                                    <ul class="list-inline">
+                                        <li><a href="#"></a></li>
+                                    </ul>
+                                </div>
 
                             <div class="col-lg-4 col-md-5 col-sm-6 m0-a">
                                 <span class="pull-right">GitHub Project</span>
