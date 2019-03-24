@@ -19,12 +19,12 @@
 
 <script>
 
-(function () {
+
     
 /*----------------------------
     9. Owl Carousel
     -----------------------------*/
-    (function () {
+ 
         $('.owl-carousel').owlCarousel({
             stagePadding: 200,
             loop: true,
@@ -50,10 +50,8 @@
             }
         })
 
-    })();
 
 
-})();
 
 
 </script>
