@@ -33,10 +33,10 @@ class PageController extends Controller
     }
 
 
-    public function showWork($id)
+    public function showWork($slug)
     {
 
-         $work = Project::find($id); 
+         $work = Project::find($slug); 
 
          return view('singleProject')->with([
             'work' => $work,
