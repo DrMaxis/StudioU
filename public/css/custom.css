@@ -316,184 +316,185 @@ canvas {
 
 @-webkit-keyframes flicker {
   0% {
-    opacity: 0.5590037523;
+    opacity: 0.2239041869;
   }
 
   5% {
-    opacity: 0.2121721392;
+    opacity: 0.4950756633;
   }
 
   10% {
-    opacity: 0.5589391198;
+    opacity: 0.017549546;
   }
 
   15% {
-    opacity: 0.4876112778;
+    opacity: 0.5644750502;
   }
 
   20% {
-    opacity: 0.9556779884;
+    opacity: 0.1236013546;
   }
 
   25% {
-    opacity: 0.4239526921;
+    opacity: 0.9450028421;
   }
 
   30% {
-    opacity: 0.5440248335;
+    opacity: 0.1027542048;
   }
 
   35% {
-    opacity: 0.8999710404;
+    opacity: 0.0451140267;
   }
 
   40% {
-    opacity: 0.8445181179;
+    opacity: 0.7278188785;
   }
 
   45% {
-    opacity: 0.4403519008;
+    opacity: 0.4503338027;
   }
 
   50% {
-    opacity: 0.7625728766;
+    opacity: 0.7825560639;
   }
 
   55% {
-    opacity: 0.0652842176;
+    opacity: 0.4517883511;
   }
 
   60% {
-    opacity: 0.7955365771;
+    opacity: 0.4028196613;
   }
 
   65% {
-    opacity: 0.4844231329;
+    opacity: 0.408664639;
   }
 
   70% {
-    opacity: 0.5941028658;
+    opacity: 0.8230327414;
   }
 
   75% {
-    opacity: 0.2901823626;
+    opacity: 0.3855026988;
   }
 
   80% {
-    opacity: 0.5841746507;
+    opacity: 0.9851064169;
   }
 
   85% {
-    opacity: 0.1621890221;
+    opacity: 0.067115251;
   }
 
   90% {
-    opacity: 0.188253953;
+    opacity: 0.3101452253;
   }
 
   95% {
-    opacity: 0.887708799;
+    opacity: 0.042557098;
   }
 
   100% {
-    opacity: 0.3398758649;
+    opacity: 0.9264346029;
   }
 }
 
 @keyframes flicker {
   0% {
-    opacity: 0.5590037523;
+    opacity: 0.2239041869;
   }
 
   5% {
-    opacity: 0.2121721392;
+    opacity: 0.4950756633;
   }
 
   10% {
-    opacity: 0.5589391198;
+    opacity: 0.017549546;
   }
 
   15% {
-    opacity: 0.4876112778;
+    opacity: 0.5644750502;
   }
 
   20% {
-    opacity: 0.9556779884;
+    opacity: 0.1236013546;
   }
 
   25% {
-    opacity: 0.4239526921;
+    opacity: 0.9450028421;
   }
 
   30% {
-    opacity: 0.5440248335;
+    opacity: 0.1027542048;
   }
 
   35% {
-    opacity: 0.8999710404;
+    opacity: 0.0451140267;
   }
 
   40% {
-    opacity: 0.8445181179;
+    opacity: 0.7278188785;
   }
 
   45% {
-    opacity: 0.4403519008;
+    opacity: 0.4503338027;
   }
 
   50% {
-    opacity: 0.7625728766;
+    opacity: 0.7825560639;
   }
 
   55% {
-    opacity: 0.0652842176;
+    opacity: 0.4517883511;
   }
 
   60% {
-    opacity: 0.7955365771;
+    opacity: 0.4028196613;
   }
 
   65% {
-    opacity: 0.4844231329;
+    opacity: 0.408664639;
   }
 
   70% {
-    opacity: 0.5941028658;
+    opacity: 0.8230327414;
   }
 
   75% {
-    opacity: 0.2901823626;
+    opacity: 0.3855026988;
   }
 
   80% {
-    opacity: 0.5841746507;
+    opacity: 0.9851064169;
   }
 
   85% {
-    opacity: 0.1621890221;
+    opacity: 0.067115251;
   }
 
   90% {
-    opacity: 0.188253953;
+    opacity: 0.3101452253;
   }
 
   95% {
-    opacity: 0.887708799;
+    opacity: 0.042557098;
   }
 
   100% {
-    opacity: 0.3398758649;
+    opacity: 0.9264346029;
   }
 }
 
 .tvContainer {
   background: #121010;
-  width: 650px;
-  height: 450px;
-  margin-top: 10px;
+  width: 633px;
+  height: 475px;
+  margin-top: -16px;
   position: relative;
   overflow: hidden;
   border: 2px solid #666;
+  margin-left: 20px;
 }
 
 .tvContainer::after {

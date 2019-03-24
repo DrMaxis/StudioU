@@ -1,6 +1,6 @@
 <div class="jumbotron vc transparent">
 
-    <div class="container">
+    <div class="container" style="z-index:10;">
 
 
         <div class="row">

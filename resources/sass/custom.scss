@@ -355,14 +355,18 @@ $screen-background:#121010;
     }
   }
 }
+
+
+
 .tvContainer{
   background:$screen-background;
-  width:650px;
-  height:450px;
-  margin-top:10px;
-  position:relative;
-  overflow:hidden;
-  border:2px solid #666;
+  width: 633px;
+  height: 475px;
+  margin-top: -16px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #666;
+  margin-left: 20px;
 
   // flicker
   &::after{
