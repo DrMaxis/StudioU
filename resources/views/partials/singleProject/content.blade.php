@@ -103,7 +103,7 @@
                                     </div>
                                     <div class="col-lg-8 col-md-7 col-sm-6">
                                         <div class="social-links text-right">
-                                            <ul class="social-link-list">
+                                            <ul class="social-link-list list-inline">
                                                 <li>Share:</li>
                                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
