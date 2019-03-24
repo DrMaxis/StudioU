@@ -111,22 +111,22 @@
                     <div class="project-share mtb-50">
                         <div class="row">
                             <div class="col-lg-4 col-md-5 col-sm-6 m0-a">
-                                <span class="pull-left">Live Site</span>
+                                
                                 <ul class="list-inline">
-                                    <li><a href="#"></a></li>
+                                    <li><a href="#"><span class="pull-left">Live Site</span></a></li>
                                 </ul>
                             </div>
                             <div class="col-lg-4 col-md-5 col-sm-6 m0-a text-center">
-                                    <span class="">Go Back</span>
+                                    
                                     <ul class="list-inline">
-                                        <li><a href="{{route('front-page')}}"></a></li>
+                                        <li><a href="{{route('front-page')}}"><span class="">Go Back</span></a></li>
                                     </ul>
                                 </div>
 
                             <div class="col-lg-4 col-md-5 col-sm-6 m0-a">
-                                <span class="pull-right">GitHub Project</span>
+                                
                                 <ul class="list-inline">
-                                    <li><a href="#"></a></li>
+                                    <li><a href="#"></a><span class="pull-right">GitHub Project</span></li>
                                 </ul>
                             </div>
                         </div>
