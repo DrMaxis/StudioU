@@ -50,7 +50,27 @@
             </div>
 
         
-            
+            <div class="intro-section-links">
+                    <div class="col-md-6 col-sm-3 m0-a">
+                        <div class="intro-links">
+
+                            <ul class="list-inline">
+                                <li class="intro-link list-inline-item">
+                                    <a href="{{route('works')}}">Current Work</a>
+                                </li>
+                                <li class="intro-link list-inline-item">
+                                    <a href="https://github.io/DrMaxis">Github</a>
+                                </li>
+                                <li class="intro-link list-inline-item">
+                                    <a href="#">Resume</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+                
         </div>
         <!--/-/-/-/-/-/-/-/-/ 
                 End Container 
