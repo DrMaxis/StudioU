@@ -126,7 +126,7 @@
                             <div class="col-lg-4 col-md-5 col-sm-6 m0-a">
                                 
                                 <ul class="list-inline">
-                                    <li><a href="#"></a><span class="pull-right">GitHub Project</span></li>
+                                    <li><a href="#"><span class="pull-right">GitHub Project</span></a></li>
                                 </ul>
                             </div>
                         </div>
