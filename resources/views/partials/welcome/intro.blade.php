@@ -17,7 +17,7 @@
                     </h1>
 
 
-                    <img class="overlay-img" style="width:100%;" src="{{asset('assets/imgs/overlays/newtv2-1.png')}}" alt="">
+                    <img class="overlay-img" style="width:100%;" src="{{asset('assets/imgs/avi/avi.png')}}" alt="">
                 </div>
 
 
