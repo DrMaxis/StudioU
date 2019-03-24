@@ -7,7 +7,7 @@
                 <!--/-/-/-/-/-/-/-/-/ 
                         Begin Single Banner  
                     -/-/-/-/-/-/-/-/-/-->
-                    <div class="col-sm-6 img-banner-r skewl ">
+                    <div class="col-sm-5 img-banner-r skewl ">
                    
                            
                             
@@ -29,7 +29,7 @@
                      <!--/-/-/-/-/-/-/-/-/ 
                             Begin Single Banner  
                         -/-/-/-/-/-/-/-/-/-->
-                        <div class="col-sm-6 img-banner-r skewl">
+                        <div class="col-sm-5 img-banner-r skewl">
                        
                                
                                 
