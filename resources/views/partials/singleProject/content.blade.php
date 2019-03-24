@@ -70,7 +70,7 @@
                         <!-- Blog Details Start -->
                         <div class="blog-details">
                             <div class="blog-img">
-                                <img src="img/products-banner/5.jpg" alt="blog-image">
+                                <img src="{{asset('assets/imgs/dummy/5.jpg')}}" alt="blog-image">
                             </div>
                             
                             <h3 class="semi-title">Lorem ipsum dolor sit amet</h3>
@@ -80,10 +80,10 @@
                             <div class="blog-img blog-single-img">
                                 <div class="row">
                                     <div class="col-sm-6">
-                                        <img src="img/products-banner/1.jpg" alt="blog-image">
+                                        <img src="{{asset('assets/imgs/dummy/10.jpg')}}" alt="blog-image">
                                     </div>
                                     <div class="col-sm-6">
-                                        <img src="img/products-banner/10.jpg" alt="blog-image">
+                                        <img src="{{asset('assets/imgs/dummy/10.jpg')}}" alt="blog-image">
                                     </div>
                                 </div>
                             </div>
