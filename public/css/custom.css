@@ -251,6 +251,8 @@ canvas {
   top: 0;
   width: 100%;
   height: 100%;
+  z-index: 0;
+  pointer-events: none;
 }
 
 .vc {
@@ -260,5 +262,9 @@ canvas {
   align-items: center;
   width: 100%;
   justify-content: center;
+}
+
+.transparent {
+  background-color: #00000000;
 }
 

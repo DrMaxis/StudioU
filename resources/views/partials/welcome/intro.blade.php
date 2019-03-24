@@ -1,5 +1,5 @@
 
- <div class="jumbotron vc">
+ <div class="jumbotron vc transparent">
     
 <div class="container">
 
