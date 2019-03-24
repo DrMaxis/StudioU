@@ -17,13 +17,14 @@
                             <div class="col-sm-10 mt-30">
                                 {{-- <img src="{{asset('assets/imgs/dummy/10.jpg')}}" alt="blog-image"> --}}
                                 <div class="single-blog">
-{{-- @if($work->showcase_images) @foreach(json_decode($work->showcase_images, true) as $image) --}}
+
                                     <div class="blog-img">
                                             <div class="sliderWrapper">
                                                     <div class="slider">
-                                                      <img id="scimg" class="active" src="https://source.unsplash.com/gKk9rpyDryU">
-                                                      <img id="scimg" src="https://source.unsplash.com/VFGEhLznjPU">
-                                                      <img id="scimg" src="https://source.unsplash.com/InR-EhiO_js">
+                                                        @if($work->showcase_images) @foreach(json_decode($work->showcase_images, true) as $image)
+                                                      <img id="scimg" class="active" src="{{contentImage($image)}}">
+                                                      @endforeach
+                                                    @endif
                                                     </div>
                                                     <nav class="slider-nav">
                                                       <ul>
@@ -44,8 +45,7 @@
                                                       </ul>
                                                     </nav>
                                                   </div>
-{{-- @endforeach
-                                                    @endif --}}
+
 
                                     </div>
 
