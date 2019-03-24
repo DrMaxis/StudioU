@@ -874,3 +874,138 @@ $screen-background:#121010;
 .list-inline a:hover {
   color:gold;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sliderWrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.slider-nav ul li a {
+  color: #3c376f;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 20px 5px;
+}
+
+.slider-nav ul li a span i {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  outline: 0;
+  -webkit-transform: translateX(0px);
+  -moz-transform: translateX(0px);
+  transform: translateX(0px);
+  -webkit-transition: transform 0.3s ease;
+  -moz-transition: transform 0.3s ease;
+  transition: transform 0.3s ease;
+}
+
+.slider-nav ul li a.previous span:hover i {
+  -webkit-transform: translateX(-10px) scale(1.2);
+  -moz-transform: translateX(-10px) scale(1.2);
+  transform: translateX(-10px) scale(1.2);
+}
+
+.slider-nav ul li a.next span:hover i {
+  -webkit-transform: translateX(10px) scale(1.2);
+  -moz-transform: translateX(10px) scale(1.2);
+  transform: translateX(10px) scale(1.2);
+}
+
+.slider-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.slider-nav li {
+  -webkit-box-flex: 2;
+  flex: 2;
+  text-align: center;
+  display: -webkit-box;
+  display: flex;
+}
+
+.slider img {
+  max-width: 100%;
+  display: none;
+  -webkit-box-shadow: 10px 10px 20px 0 rgba(94,47,59,0.2);
+  -moz-box-shadow: 10px 10px 20px 0 rgba(94,47,59,0.2);
+  box-shadow: 10px 10px 20px 0 rgba(94,47,59,0.2);
+}
+
+.slider img.active {
+  display: block;
+  -webkit-animation: fadeImg 0.8s;
+  -moz-animation: fadeImg 0.8s;
+  animation: fadeImg 0.8s;
+}
+
+.slider-nav .arrow {
+  flex: 0 0 15%;
+}
+
+.slider-nav a {
+  flex-basis: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.slider-nav span {
+  display: block;
+  width: 100%;
+}
+
+@-webkit-keyframes fadeImg {
+  from {
+    opacity: 0; 
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeImg {
+  from {
+    opacity: 0; 
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeImg {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

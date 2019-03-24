@@ -17,31 +17,35 @@
                             <div class="col-sm-6 mt-30">
                                 {{-- <img src="{{asset('assets/imgs/dummy/10.jpg')}}" alt="blog-image"> --}}
                                 <div class="single-blog">
-
+{{-- @if($work->showcase_images) @foreach(json_decode($work->showcase_images, true) as $image) --}}
                                     <div class="blog-img">
-                                        <div class="catProductSlider">
-
-                                            <div class="catProductSlideViewer" style="overflow:hidden;">
-                                                <div class="owl-carousel">
-                                                    @if($work->showcase_images) @foreach(json_decode($work->showcase_images, true) as $image)
-
-                                                    <div class="item">
-
-                                                        <a id="fadeLink" class="sc-img" href="/works/{{$work->slug}}">
-                            
-                                      <img  style="max-width:100%; max-height:100%;" src="{{contentImage($work->image)}}" alt="Showcase Image" />
-                                      
-                                  </a>
-                                                        <div class="inner">
-                                                            <a href="/works/{{$work->slug}}">{{$work->slug}}</a>
-                                                        </div>
+                                            <div class="sliderWrapper">
+                                                    <div class="slider">
+                                                      <img class="active" src="https://source.unsplash.com/gKk9rpyDryU">
+                                                      <img src="https://source.unsplash.com/VFGEhLznjPU">
+                                                      <img src="https://source.unsplash.com/InR-EhiO_js">
                                                     </div>
-                                                    @endforeach
-                                                    @endif
-                                                </div>
-                                            </div>
-                                        </div>
-
+                                                    <nav class="slider-nav">
+                                                      <ul>
+                                                        <li class="arrow">
+                                                          <a class="previous">
+                                                            <span>
+                                                              <i class="ion-arrow-left-c"></i>
+                                                            </span>
+                                                          </a>
+                                                        </li>
+                                                        <li class="arrow">
+                                                          <a class="next">
+                                                            <span>
+                                                              <i class="ion-arrow-right-c"></i>
+                                                            </span>
+                                                          </a>
+                                                        </li>
+                                                      </ul>
+                                                    </nav>
+                                                  </div>
+{{-- @endforeach
+                                                    @endif --}}
 
                                     </div>
 
@@ -55,7 +59,7 @@
                             </div> --}}
                         </div>
                     </div>
-                    <p class="mb-20">{{!!$work->bottom_description!!}}</p>
+                    <p class="mb-20">{!!$work->bottom_description!!}</p>
 
                     <!--  Blog-Share Start  -->
                     <div class="project-share mtb-50">
