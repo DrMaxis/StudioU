@@ -11,16 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'PageController@frontPage')->name('front-page');
 
+Route::get('/works', 'PageController@works')->name('works');
 
-
-Route::get('/work', function () {
-    return view('projects');
-});
-
-Route::get('/work/1', function () {
-    return view('singleProject');
-});
+Route::get('/works/{work}', 'PageController@showWork')->name('single-work');
