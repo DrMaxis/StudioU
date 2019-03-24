@@ -59,7 +59,7 @@
                                     <a href="{{route('front-page')}}">Home</a>
                                 </li>
                                 <li class="intro-link list-inline-item">
-                                    <a href="https://github.io/DrMaxis">Github</a>
+                                    <a href="https://github.com/DrMaxis">Github</a>
                                 </li>
                                 <li class="intro-link list-inline-item">
                                     <a href="#">Resume</a>
