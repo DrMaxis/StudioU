@@ -65,6 +65,9 @@
    {{--  <!-- Container End --> --}}
 </div>-->
 
+<div class="blog-area ptb-100">
+            <div class="container">
+                <div class="row">
 
 <div class="col-md-8 col-sm-12">
                         <!-- Blog Details Start -->
@@ -130,3 +133,6 @@
                         
                         <!-- Contact Email Area End -->
                     </div>
+                </div>
+            </div>
+</div>
