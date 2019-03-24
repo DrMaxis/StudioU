@@ -9,7 +9,7 @@
     
     @yield('xcss')
 
-<body style="background-image: url({{asset('assets/imgs/overlays/shatterd-dark.png')}});">
+<body style="background-image: url({{asset('assets/imgs/overlays/shattered-dark.png')}});">
 
 
     <section class="xenx-box">
