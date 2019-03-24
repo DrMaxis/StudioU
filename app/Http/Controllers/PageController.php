@@ -33,14 +33,14 @@ class PageController extends Controller
     }
 
 
-    public function showWork()
+    public function showWork($id)
     {
 
-        /* $work = Project::find($id); */
+         $work = Project::find($id); 
 
-      /*   return view('singleProject')->with([
+         return view('singleProject')->with([
             'work' => $work,
-        ]); */
-        return view('singleProject');
+        ]); 
+        
     }
 }
