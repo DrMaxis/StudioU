@@ -316,173 +316,173 @@ canvas {
 
 @-webkit-keyframes flicker {
   0% {
-    opacity: 0.3128202221;
+    opacity: 0.2137611132;
   }
 
   5% {
-    opacity: 0.9152842495;
+    opacity: 0.4748963835;
   }
 
   10% {
-    opacity: 0.5821878933;
+    opacity: 0.2373595327;
   }
 
   15% {
-    opacity: 0.7558479457;
+    opacity: 0.7980300143;
   }
 
   20% {
-    opacity: 0.6593448526;
+    opacity: 0.3797334228;
   }
 
   25% {
-    opacity: 0.8183966798;
+    opacity: 0.1086857908;
   }
 
   30% {
-    opacity: 0.6407087447;
+    opacity: 0.3187791526;
   }
 
   35% {
-    opacity: 0.1184052603;
+    opacity: 0.3780584122;
   }
 
   40% {
-    opacity: 0.1923137041;
+    opacity: 0.614558985;
   }
 
   45% {
-    opacity: 0.0087628257;
+    opacity: 0.4882696561;
   }
 
   50% {
-    opacity: 0.5402496169;
+    opacity: 0.9717603792;
   }
 
   55% {
-    opacity: 0.0924389858;
+    opacity: 0.3972611629;
   }
 
   60% {
-    opacity: 0.8709209614;
+    opacity: 0.9310149528;
   }
 
   65% {
-    opacity: 0.2276192671;
+    opacity: 0.6600271596;
   }
 
   70% {
-    opacity: 0.7523392038;
+    opacity: 0.7796579687;
   }
 
   75% {
-    opacity: 0.214402654;
+    opacity: 0.298082466;
   }
 
   80% {
-    opacity: 0.7564312547;
+    opacity: 0.179524122;
   }
 
   85% {
-    opacity: 0.7685939423;
+    opacity: 0.2423344104;
   }
 
   90% {
-    opacity: 0.4352786046;
+    opacity: 0.3590743736;
   }
 
   95% {
-    opacity: 0.7652957347;
+    opacity: 0.6557601054;
   }
 
   100% {
-    opacity: 0.3256020537;
+    opacity: 0.6728264605;
   }
 }
 
 @keyframes flicker {
   0% {
-    opacity: 0.3128202221;
+    opacity: 0.2137611132;
   }
 
   5% {
-    opacity: 0.9152842495;
+    opacity: 0.4748963835;
   }
 
   10% {
-    opacity: 0.5821878933;
+    opacity: 0.2373595327;
   }
 
   15% {
-    opacity: 0.7558479457;
+    opacity: 0.7980300143;
   }
 
   20% {
-    opacity: 0.6593448526;
+    opacity: 0.3797334228;
   }
 
   25% {
-    opacity: 0.8183966798;
+    opacity: 0.1086857908;
   }
 
   30% {
-    opacity: 0.6407087447;
+    opacity: 0.3187791526;
   }
 
   35% {
-    opacity: 0.1184052603;
+    opacity: 0.3780584122;
   }
 
   40% {
-    opacity: 0.1923137041;
+    opacity: 0.614558985;
   }
 
   45% {
-    opacity: 0.0087628257;
+    opacity: 0.4882696561;
   }
 
   50% {
-    opacity: 0.5402496169;
+    opacity: 0.9717603792;
   }
 
   55% {
-    opacity: 0.0924389858;
+    opacity: 0.3972611629;
   }
 
   60% {
-    opacity: 0.8709209614;
+    opacity: 0.9310149528;
   }
 
   65% {
-    opacity: 0.2276192671;
+    opacity: 0.6600271596;
   }
 
   70% {
-    opacity: 0.7523392038;
+    opacity: 0.7796579687;
   }
 
   75% {
-    opacity: 0.214402654;
+    opacity: 0.298082466;
   }
 
   80% {
-    opacity: 0.7564312547;
+    opacity: 0.179524122;
   }
 
   85% {
-    opacity: 0.7685939423;
+    opacity: 0.2423344104;
   }
 
   90% {
-    opacity: 0.4352786046;
+    opacity: 0.3590743736;
   }
 
   95% {
-    opacity: 0.7652957347;
+    opacity: 0.6557601054;
   }
 
   100% {
-    opacity: 0.3256020537;
+    opacity: 0.6728264605;
   }
 }
 
@@ -1186,14 +1186,14 @@ canvas {
   padding: 50px;
 }
 
-a {
+.slider-nav ul li a {
   color: #3c376f;
   text-decoration: none;
   font-size: 2rem;
   padding: 20px 5px;
 }
 
-a span i {
+.slider-nav ul li a span i {
   position: relative;
   display: block;
   cursor: pointer;
@@ -1205,12 +1205,12 @@ a span i {
   transition: transform 0.3s ease, -webkit-transform 0.3s ease;
 }
 
-a.previous span:hover i {
+.slider-nav ul li a.previous span:hover i {
   -webkit-transform: translateX(-10px) scale(1.2);
   transform: translateX(-10px) scale(1.2);
 }
 
-a.next span:hover i {
+.slider-nav ul li a.next span:hover i {
   -webkit-transform: translateX(10px) scale(1.2);
   transform: translateX(10px) scale(1.2);
 }
@@ -1229,13 +1229,13 @@ a.next span:hover i {
   display: flex;
 }
 
-img {
+.slider img {
   max-width: 100%;
   display: none;
   box-shadow: 10px 10px 20px 0 rgba(94, 47, 59, 0.2);
 }
 
-img.active {
+.slider img.active {
   display: block;
   -webkit-animation: fadeImg 0.8s;
   animation: fadeImg 0.8s;

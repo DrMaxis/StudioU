@@ -14,7 +14,7 @@
 
                     <div class="project-img project-single-img">
                         <div class="row">
-                            <div class="col-sm-6 mt-30">
+                            <div class="col-sm-10 mt-30">
                                 {{-- <img src="{{asset('assets/imgs/dummy/10.jpg')}}" alt="blog-image"> --}}
                                 <div class="single-blog">
 {{-- @if($work->showcase_images) @foreach(json_decode($work->showcase_images, true) as $image) --}}

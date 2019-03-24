@@ -898,14 +898,14 @@ $screen-background:#121010;
   padding: 50px;
 }
 
-a {
+.slider-nav ul li a {
   color: #3c376f;
   text-decoration: none;
   font-size: 2rem;
   padding: 20px 5px;
 }
 
-a span i {
+.slider-nav ul li a span i {
   position: relative;
   display: block;
   cursor: pointer;
@@ -918,13 +918,13 @@ a span i {
   transition: transform 0.3s ease;
 }
 
-a.previous span:hover i {
+.slider-nav ul li a.previous span:hover i {
   -webkit-transform: translateX(-10px) scale(1.2);
   -moz-transform: translateX(-10px) scale(1.2);
   transform: translateX(-10px) scale(1.2);
 }
 
-a.next span:hover i {
+.slider-nav ul li  a.next span:hover i {
   -webkit-transform: translateX(10px) scale(1.2);
   -moz-transform: translateX(10px) scale(1.2);
   transform: translateX(10px) scale(1.2);
@@ -948,7 +948,7 @@ a.next span:hover i {
   display: flex;
 }
 
-img {
+.slider img {
   max-width: 100%;
   display: none;
   -webkit-box-shadow: 10px 10px 20px 0 rgba(94,47,59,0.2);
@@ -956,7 +956,7 @@ img {
   box-shadow: 10px 10px 20px 0 rgba(94,47,59,0.2);
 }
 
-img.active {
+.slider img.active {
   display: block;
   -webkit-animation: fadeImg 0.8s;
   -moz-animation: fadeImg 0.8s;
