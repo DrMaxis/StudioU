@@ -590,6 +590,10 @@ $screen-background:#121010;
   margin-bottom: 30px;
 }
 
+.single-blog h2 {
+  text-align: center;
+  margin-top:50px;
+}
 
 .intro-section h2 {
   font-size: 22px;
@@ -627,4 +631,7 @@ $screen-background:#121010;
 		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
 		transform: translatey(0px);
 	}
+}
+.m0-a {
+  margin:0 auto;
 }

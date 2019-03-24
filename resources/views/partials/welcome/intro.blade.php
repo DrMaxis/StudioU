@@ -6,15 +6,14 @@
         <div class="row">
 
 
-            <div class="col-md-10">
+            <div class="col-md-10 m0-a">
 
 
-                <div class="intro-secton" {{-- style="background: rgba(0,0,0,0) url({{asset('assets/imgs/overlays/newtv2-1.png')}}) no-repeat scroll center center / cover"
-                    --}}>
+                <div class="intro-secton">
 
 
 
-                    <div class="col-md-6 col-sm-6" style="margin:0 auto;">
+                    <div class="col-md-6 col-sm-6 m0-a">
                         <!-- Single Blog Start -->
                         <div class="single-blog">
                             <div class="blog-img">
@@ -31,23 +30,26 @@
                         <!-- Single Blog End -->
                     </div>
                 </div>
-<div class="col-md-3 col-sm-3">
-   <div class="intro-links">
+                <div class="intro-section-links">
+                    <div class="col-md-6 col-sm-3 m0-a">
+                        <div class="intro-links">
 
-                    <ul class="list-inline">
-                        <li class="intro-link list-inline-item">
-                            <a href="#">Current Work</a>
-                        </li>
-                        <li class="intro-link list-inline-item">
-                            <a href="#">Github</a>
-                        </li>
-                        <li class="intro-link list-inline-item">
-                            <a href="#">Resume</a>
-                        </li>
-                    </ul>
+                            <ul class="list-inline">
+                                <li class="intro-link list-inline-item">
+                                    <a href="#">Current Work</a>
+                                </li>
+                                <li class="intro-link list-inline-item">
+                                    <a href="#">Github</a>
+                                </li>
+                                <li class="intro-link list-inline-item">
+                                    <a href="#">Resume</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
                 </div>
-</div>
-             
+
             </div>
         </div>
     </div>

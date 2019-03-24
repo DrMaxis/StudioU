@@ -10,13 +10,12 @@
 @section('content')
 
 
-@include('partials.welcome.intro')
 
 
 @include('partials.welcome.projects')
 
 
-@include('partials.welcome.contact')
+
 
 
 @endsection
