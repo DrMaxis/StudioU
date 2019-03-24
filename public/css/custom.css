@@ -316,173 +316,173 @@ canvas {
 
 @-webkit-keyframes flicker {
   0% {
-    opacity: 0.5175052274;
+    opacity: 0.9756241568;
   }
 
   5% {
-    opacity: 0.5856252771;
+    opacity: 0.0764832685;
   }
 
   10% {
-    opacity: 0.689158811;
+    opacity: 0.3457815969;
   }
 
   15% {
-    opacity: 0.0437750732;
+    opacity: 0.0765771653;
   }
 
   20% {
-    opacity: 0.0628947836;
+    opacity: 0.0753962136;
   }
 
   25% {
-    opacity: 0.0679017372;
+    opacity: 0.5696684781;
   }
 
   30% {
-    opacity: 0.5589259333;
+    opacity: 0.0955106802;
   }
 
   35% {
-    opacity: 0.7290853429;
+    opacity: 0.7401006657;
   }
 
   40% {
-    opacity: 0.0724733928;
+    opacity: 0.8701851719;
   }
 
   45% {
-    opacity: 0.8767897444;
+    opacity: 0.7842710158;
   }
 
   50% {
-    opacity: 0.0618248279;
+    opacity: 0.6937805299;
   }
 
   55% {
-    opacity: 0.4035660958;
+    opacity: 0.5325889164;
   }
 
   60% {
-    opacity: 0.7128727286;
+    opacity: 0.9974418626;
   }
 
   65% {
-    opacity: 0.7115088123;
+    opacity: 0.1503067367;
   }
 
   70% {
-    opacity: 0.6512381748;
+    opacity: 0.8022759731;
   }
 
   75% {
-    opacity: 0.3049728115;
+    opacity: 0.2592711345;
   }
 
   80% {
-    opacity: 0.1302351381;
+    opacity: 0.1762345782;
   }
 
   85% {
-    opacity: 0.0681643188;
+    opacity: 0.1488779771;
   }
 
   90% {
-    opacity: 0.5504570754;
+    opacity: 0.1997399074;
   }
 
   95% {
-    opacity: 0.2831911246;
+    opacity: 0.1328769997;
   }
 
   100% {
-    opacity: 0.4426517153;
+    opacity: 0.678066556;
   }
 }
 
 @keyframes flicker {
   0% {
-    opacity: 0.5175052274;
+    opacity: 0.9756241568;
   }
 
   5% {
-    opacity: 0.5856252771;
+    opacity: 0.0764832685;
   }
 
   10% {
-    opacity: 0.689158811;
+    opacity: 0.3457815969;
   }
 
   15% {
-    opacity: 0.0437750732;
+    opacity: 0.0765771653;
   }
 
   20% {
-    opacity: 0.0628947836;
+    opacity: 0.0753962136;
   }
 
   25% {
-    opacity: 0.0679017372;
+    opacity: 0.5696684781;
   }
 
   30% {
-    opacity: 0.5589259333;
+    opacity: 0.0955106802;
   }
 
   35% {
-    opacity: 0.7290853429;
+    opacity: 0.7401006657;
   }
 
   40% {
-    opacity: 0.0724733928;
+    opacity: 0.8701851719;
   }
 
   45% {
-    opacity: 0.8767897444;
+    opacity: 0.7842710158;
   }
 
   50% {
-    opacity: 0.0618248279;
+    opacity: 0.6937805299;
   }
 
   55% {
-    opacity: 0.4035660958;
+    opacity: 0.5325889164;
   }
 
   60% {
-    opacity: 0.7128727286;
+    opacity: 0.9974418626;
   }
 
   65% {
-    opacity: 0.7115088123;
+    opacity: 0.1503067367;
   }
 
   70% {
-    opacity: 0.6512381748;
+    opacity: 0.8022759731;
   }
 
   75% {
-    opacity: 0.3049728115;
+    opacity: 0.2592711345;
   }
 
   80% {
-    opacity: 0.1302351381;
+    opacity: 0.1762345782;
   }
 
   85% {
-    opacity: 0.0681643188;
+    opacity: 0.1488779771;
   }
 
   90% {
-    opacity: 0.5504570754;
+    opacity: 0.1997399074;
   }
 
   95% {
-    opacity: 0.2831911246;
+    opacity: 0.1328769997;
   }
 
   100% {
-    opacity: 0.4426517153;
+    opacity: 0.678066556;
   }
 }
 
@@ -1084,5 +1084,21 @@ canvas {
     -webkit-transform-origin: right;
             transform-origin: right;
   }
+}
+
+/*----------------------------------------*/
+
+/* 26. About Us CSS
+/*----------------------------------------*/
+
+.project h2 {
+  font-size: 22px;
+  margin: 25px 0 15px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.project-content {
+  text-transform: lowercase;
 }
 
