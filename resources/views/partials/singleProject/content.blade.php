@@ -110,14 +110,14 @@
                     <!--  Blog-Share Start  -->
                     <div class="project-share mtb-50">
                         <div class="row">
-                            <div class="col-lg-4 col-md-5 col-sm-6">
+                            <div class="col-lg-4 col-md-5 col-sm-6 m0-a">
                                 <span class="pull-left">Live Site</span>
                                 <ul class="list-inline">
                                     <li><a href="#"></a></li>
                                 </ul>
                             </div>
 
-                            <div class="col-lg-4 col-md-5 col-sm-6">
+                            <div class="col-lg-4 col-md-5 col-sm-6 m0-a">
                                 <span class="pull-right">GitHub Project</span>
                                 <ul class="list-inline">
                                     <li><a href="#"></a></li>
