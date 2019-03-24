@@ -18,8 +18,9 @@ html {
 body {
   font-family: roboregular;
   font-size: 14px;
-  color: #788188;
+  color: #ffffff;
   background-color: #000000;
+  background: #000000;
   -webkit-font-smoothing: antialiased;
   line-height: 1.4;
 }
