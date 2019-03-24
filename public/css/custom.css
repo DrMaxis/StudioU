@@ -21,6 +21,7 @@ body {
   color: #ffffff;
   background-color: #000000 !important;
   background: #000000;
+  background-image: url("/public/assets/imgs/overlays/shattered-dark.png");
   -webkit-font-smoothing: antialiased;
   line-height: 1.4;
 }
@@ -316,173 +317,173 @@ canvas {
 
 @-webkit-keyframes flicker {
   0% {
-    opacity: 0.3679704152;
+    opacity: 0.2090647788;
   }
 
   5% {
-    opacity: 0.8860937626;
+    opacity: 0.5148105579;
   }
 
   10% {
-    opacity: 0.4245986846;
+    opacity: 0.9656608528;
   }
 
   15% {
-    opacity: 0.3197291334;
+    opacity: 0.0912023052;
   }
 
   20% {
-    opacity: 0.519035205;
+    opacity: 0.4785372429;
   }
 
   25% {
-    opacity: 0.3390197559;
+    opacity: 0.8083302438;
   }
 
   30% {
-    opacity: 0.6234776134;
+    opacity: 0.1194354095;
   }
 
   35% {
-    opacity: 0.1218846677;
+    opacity: 0.3627380387;
   }
 
   40% {
-    opacity: 0.6010620996;
+    opacity: 0.7472218857;
   }
 
   45% {
-    opacity: 0.8066375181;
+    opacity: 0.0462428663;
   }
 
   50% {
-    opacity: 0.9224809157;
+    opacity: 0.320169808;
   }
 
   55% {
-    opacity: 0.7561759005;
+    opacity: 0.4605638362;
   }
 
   60% {
-    opacity: 0.5075022205;
+    opacity: 0.243952652;
   }
 
   65% {
-    opacity: 0.1819891269;
+    opacity: 0.7803536651;
   }
 
   70% {
-    opacity: 0.3262029549;
+    opacity: 0.2694455051;
   }
 
   75% {
-    opacity: 0.8324036222;
+    opacity: 0.9749028046;
   }
 
   80% {
-    opacity: 0.3173109054;
+    opacity: 0.7917077347;
   }
 
   85% {
-    opacity: 0.4603151097;
+    opacity: 0.3288524762;
   }
 
   90% {
-    opacity: 0.3084639172;
+    opacity: 0.1010447239;
   }
 
   95% {
-    opacity: 0.5019168501;
+    opacity: 0.9035119884;
   }
 
   100% {
-    opacity: 0.8947966446;
+    opacity: 0.7460276865;
   }
 }
 
 @keyframes flicker {
   0% {
-    opacity: 0.3679704152;
+    opacity: 0.2090647788;
   }
 
   5% {
-    opacity: 0.8860937626;
+    opacity: 0.5148105579;
   }
 
   10% {
-    opacity: 0.4245986846;
+    opacity: 0.9656608528;
   }
 
   15% {
-    opacity: 0.3197291334;
+    opacity: 0.0912023052;
   }
 
   20% {
-    opacity: 0.519035205;
+    opacity: 0.4785372429;
   }
 
   25% {
-    opacity: 0.3390197559;
+    opacity: 0.8083302438;
   }
 
   30% {
-    opacity: 0.6234776134;
+    opacity: 0.1194354095;
   }
 
   35% {
-    opacity: 0.1218846677;
+    opacity: 0.3627380387;
   }
 
   40% {
-    opacity: 0.6010620996;
+    opacity: 0.7472218857;
   }
 
   45% {
-    opacity: 0.8066375181;
+    opacity: 0.0462428663;
   }
 
   50% {
-    opacity: 0.9224809157;
+    opacity: 0.320169808;
   }
 
   55% {
-    opacity: 0.7561759005;
+    opacity: 0.4605638362;
   }
 
   60% {
-    opacity: 0.5075022205;
+    opacity: 0.243952652;
   }
 
   65% {
-    opacity: 0.1819891269;
+    opacity: 0.7803536651;
   }
 
   70% {
-    opacity: 0.3262029549;
+    opacity: 0.2694455051;
   }
 
   75% {
-    opacity: 0.8324036222;
+    opacity: 0.9749028046;
   }
 
   80% {
-    opacity: 0.3173109054;
+    opacity: 0.7917077347;
   }
 
   85% {
-    opacity: 0.4603151097;
+    opacity: 0.3288524762;
   }
 
   90% {
-    opacity: 0.3084639172;
+    opacity: 0.1010447239;
   }
 
   95% {
-    opacity: 0.5019168501;
+    opacity: 0.9035119884;
   }
 
   100% {
-    opacity: 0.8947966446;
+    opacity: 0.7460276865;
   }
 }
 
