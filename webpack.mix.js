@@ -15,6 +15,7 @@ const mix = require('laravel-mix');
 
  /* CORE STYLES */
 mix.sass('resources/sass/custom.scss', 'public/css');
+mix.sass('resources/sass/owl.carousel.min.scss', 'public/css');
 
 
 
@@ -22,3 +23,4 @@ mix.sass('resources/sass/custom.scss', 'public/css');
 
  /* CORE SCRIPTS */
 mix.js('resources/js/starwave.js', 'public/js');
+mix.js('resources/js/jquery.min.owl.js', 'public/js');

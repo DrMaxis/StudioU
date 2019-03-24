@@ -304,15 +304,27 @@ loop();
 
 /***/ }),
 
+/***/ "./resources/sass/owl.carousel.min.scss":
+/*!**********************************************!*\
+  !*** ./resources/sass/owl.carousel.min.scss ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ 0:
-/*!*********************************************************************!*\
-  !*** multi ./resources/js/starwave.js ./resources/sass/custom.scss ***!
-  \*********************************************************************/
+/*!************************************************************************************************************!*\
+  !*** multi ./resources/js/starwave.js ./resources/sass/custom.scss ./resources/sass/owl.carousel.min.scss ***!
+  \************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! C:\xampp\htdocs\StudioU\resources\js\starwave.js */"./resources/js/starwave.js");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\StudioU\resources\sass\custom.scss */"./resources/sass/custom.scss");
+__webpack_require__(/*! C:\xampp\htdocs\StudioU\resources\sass\custom.scss */"./resources/sass/custom.scss");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\StudioU\resources\sass\owl.carousel.min.scss */"./resources/sass/owl.carousel.min.scss");
 
 
 /***/ })
