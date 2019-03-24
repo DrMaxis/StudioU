@@ -9,10 +9,7 @@
                     -/-/-/-/-/-/-/-/-/-->
                     <div class="col-sm-6 img-banner-r skewl">
                    
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
+                           
                             
                             <div class="img-banner-content-r">
           
