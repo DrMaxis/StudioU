@@ -21,7 +21,7 @@
 
 
 <div class="tvContainer">
-  <iframe src="https://codepen.io" class="screen" width="800" height="600"></iframe>
+  <img src="#" alt="">
   <div class="overlay">AV-1</div>
 </div>
                 
