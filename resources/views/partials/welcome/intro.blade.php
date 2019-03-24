@@ -10,8 +10,8 @@
         <div class="col-md-6">
 
 
-            <div class="intro-secton" style="background:{{asset('assets/imgs/overlays/newtv2-1.png')}};">
-
+            <div class="intro-secton" style="background: rgba(0,0,0,0) url({{asset('assets/imgs/overlays/newtv2-1.png')}}) no-repeat scroll center center / cover">
+               
                 <h1>
                     Intro
                 </h1>
