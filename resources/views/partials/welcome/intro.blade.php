@@ -36,10 +36,10 @@
 
                             <ul class="list-inline">
                                 <li class="intro-link list-inline-item">
-                                    <a href="#">Current Work</a>
+                                    <a href="{{route('works')}}">Current Work</a>
                                 </li>
                                 <li class="intro-link list-inline-item">
-                                    <a href="#">Github</a>
+                                    <a href="https://github.io/DrMaxis">Github</a>
                                 </li>
                                 <li class="intro-link list-inline-item">
                                     <a href="#">Resume</a>
