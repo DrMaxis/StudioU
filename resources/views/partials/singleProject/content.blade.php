@@ -21,7 +21,7 @@
                                     <div class="blog-img">
                                             <div class="sliderWrapper">
                                                     <div class="slider">
-                                                            <img id="scimg" class="active" src="{{contentImage($work->image)}}">
+                                                            <img id="scimg" class="active" src="{{contentImage($image)}}">
                                                         @if($work->showcase_images) @foreach(json_decode($work->showcase_images, true) as $image)
                                                       <img id="scimg"  src="{{contentImage($image)}}">
                                                       @endforeach
