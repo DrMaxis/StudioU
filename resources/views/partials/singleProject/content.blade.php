@@ -65,11 +65,11 @@
    {{--  <!-- Container End --> --}}
 </div>-->
 
-<div class="blog-area ptb-100">
+<div class="blog-area ptb-100 vc">
             <div class="container">
                 <div class="row">
 
-<div class="col-md-8 col-sm-12">
+<div class="col-md-8 col-sm-12 m0-a">
                         <!-- Blog Details Start -->
                         <div class="blog-details">
                             <div class="blog-img">
