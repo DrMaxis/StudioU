@@ -21,7 +21,7 @@ body {
     color: #ffffff;
     background-color: #000000 !important;
     background: #000000;
-    background-image: rgba(0,0,0,0) url("/public/assets/imgs/overlays/shattered-dark.png") no-repeat scroll center center / cover;
+    background-image: url("/public/assets/imgs/overlays/shattered-dark.png");
     -webkit-font-smoothing: antialiased;
     line-height: 1.40;
 }
