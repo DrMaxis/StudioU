@@ -12,7 +12,7 @@
 
 
 
-@include('partials.welcome.projects')
+
 
 
 
