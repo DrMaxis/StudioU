@@ -31,21 +31,23 @@
                         <!-- Single Blog End -->
                     </div>
                 </div>
+<div class="col-md-3 col-sm-3">
+   <div class="intro-links">
 
-                <div class="intro-links">
-
-                    <ul>
-                        <li class="intro-link">
+                    <ul class="list-inline">
+                        <li class="intro-link list-inline-item">
                             <a href="#">Current Work</a>
                         </li>
-                        <li class="intro-link">
+                        <li class="intro-link list-inline-item">
                             <a href="#">Github</a>
                         </li>
-                        <li class="intro-link">
+                        <li class="intro-link list-inline-item">
                             <a href="#">Resume</a>
                         </li>
                     </ul>
                 </div>
+</div>
+             
             </div>
         </div>
     </div>

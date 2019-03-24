@@ -18,7 +18,7 @@ html {
 body {
   font-family: roboregular;
   font-size: 14px;
-  color: #ffffff;
+  color: #ffffff !important;
   background-color: #000000 !important;
   background: #000000;
   -webkit-font-smoothing: antialiased;
@@ -316,173 +316,173 @@ canvas {
 
 @-webkit-keyframes flicker {
   0% {
-    opacity: 0.457313279;
+    opacity: 0.6717418862;
   }
 
   5% {
-    opacity: 0.5170023871;
+    opacity: 0.5183818415;
   }
 
   10% {
-    opacity: 0.8309639704;
+    opacity: 0.7803087424;
   }
 
   15% {
-    opacity: 0.1737580739;
+    opacity: 0.649447933;
   }
 
   20% {
-    opacity: 0.6898020109;
+    opacity: 0.0249391313;
   }
 
   25% {
-    opacity: 0.199652515;
+    opacity: 0.2862151987;
   }
 
   30% {
-    opacity: 0.1998309688;
+    opacity: 0.875276725;
   }
 
   35% {
-    opacity: 0.7292126132;
+    opacity: 0.7924207829;
   }
 
   40% {
-    opacity: 0.3371991732;
+    opacity: 0.2056249743;
   }
 
   45% {
-    opacity: 0.4838136279;
+    opacity: 0.1474271753;
   }
 
   50% {
-    opacity: 0.6400873058;
+    opacity: 0.3464737635;
   }
 
   55% {
-    opacity: 0.4764066279;
+    opacity: 0.7849278686;
   }
 
   60% {
-    opacity: 0.5729849655;
+    opacity: 0.8960077113;
   }
 
   65% {
-    opacity: 0.9112880003;
+    opacity: 0.6107869746;
   }
 
   70% {
-    opacity: 0.8549962648;
+    opacity: 0.6048066754;
   }
 
   75% {
-    opacity: 0.0997061487;
+    opacity: 0.6284198004;
   }
 
   80% {
-    opacity: 0.2516092078;
+    opacity: 0.3707637984;
   }
 
   85% {
-    opacity: 0.0687549242;
+    opacity: 0.6506808815;
   }
 
   90% {
-    opacity: 0.8761553533;
+    opacity: 0.0221775449;
   }
 
   95% {
-    opacity: 0.1033690809;
+    opacity: 0.4063607491;
   }
 
   100% {
-    opacity: 0.6959829876;
+    opacity: 0.3366546129;
   }
 }
 
 @keyframes flicker {
   0% {
-    opacity: 0.457313279;
+    opacity: 0.6717418862;
   }
 
   5% {
-    opacity: 0.5170023871;
+    opacity: 0.5183818415;
   }
 
   10% {
-    opacity: 0.8309639704;
+    opacity: 0.7803087424;
   }
 
   15% {
-    opacity: 0.1737580739;
+    opacity: 0.649447933;
   }
 
   20% {
-    opacity: 0.6898020109;
+    opacity: 0.0249391313;
   }
 
   25% {
-    opacity: 0.199652515;
+    opacity: 0.2862151987;
   }
 
   30% {
-    opacity: 0.1998309688;
+    opacity: 0.875276725;
   }
 
   35% {
-    opacity: 0.7292126132;
+    opacity: 0.7924207829;
   }
 
   40% {
-    opacity: 0.3371991732;
+    opacity: 0.2056249743;
   }
 
   45% {
-    opacity: 0.4838136279;
+    opacity: 0.1474271753;
   }
 
   50% {
-    opacity: 0.6400873058;
+    opacity: 0.3464737635;
   }
 
   55% {
-    opacity: 0.4764066279;
+    opacity: 0.7849278686;
   }
 
   60% {
-    opacity: 0.5729849655;
+    opacity: 0.8960077113;
   }
 
   65% {
-    opacity: 0.9112880003;
+    opacity: 0.6107869746;
   }
 
   70% {
-    opacity: 0.8549962648;
+    opacity: 0.6048066754;
   }
 
   75% {
-    opacity: 0.0997061487;
+    opacity: 0.6284198004;
   }
 
   80% {
-    opacity: 0.2516092078;
+    opacity: 0.3707637984;
   }
 
   85% {
-    opacity: 0.0687549242;
+    opacity: 0.6506808815;
   }
 
   90% {
-    opacity: 0.8761553533;
+    opacity: 0.0221775449;
   }
 
   95% {
-    opacity: 0.1033690809;
+    opacity: 0.4063607491;
   }
 
   100% {
-    opacity: 0.6959829876;
+    opacity: 0.3366546129;
   }
 }
 
