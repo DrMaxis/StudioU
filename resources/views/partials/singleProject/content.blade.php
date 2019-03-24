@@ -68,9 +68,9 @@
                             <div class="col-lg-4 col-md-5 col-sm-6 m0-a">
 
                                 <ul class="list-inline">
-                                    <li><a href="{{$work->live_link}}"><span class="pull-left">Live Site</span></a></li>
-                                    <li><a href="{{route('front-page')}}"><span class="">Go Back</span></a></li>
-                                    <li><a href="{{$work->git_link}}"><span class="pull-right">GitHub Project</span></a></li>
+                                    <li class="list-inline-item" ><a href="{{$work->live_link}}"><span >Live Site</span></a></li>
+                                    <li class="list-inline-item" ><a href="{{route('front-page')}}"><span >Go Back</span></a></li>
+                                    <li class="list-inline-item" ><a href="{{$work->git_link}}"><span >GitHub Project</span></a></li>
                                 </ul>
                             </div>
           
