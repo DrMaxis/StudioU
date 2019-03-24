@@ -17,6 +17,7 @@ Route::get('/works', 'PageController@works')->name('works');
 
 /* Route::get('/works/{work}', 'PageController@showWork')->name('single-work'); */
 Route::get('/works/1', 'PageController@showWork')->name('single-work');
+
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
