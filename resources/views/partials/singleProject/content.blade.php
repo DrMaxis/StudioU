@@ -69,8 +69,9 @@
 
                                 <ul class="list-inline">
                                     <li class="list-inline-item" ><a href="{{$work->live_link}}"><span >Live Site</span></a></li>
-                                    <li class="list-inline-item" ><a href="{{route('front-page')}}"><span >Go Back</span></a></li>
                                     <li class="list-inline-item" ><a href="{{$work->git_link}}"><span >GitHub Project</span></a></li>
+                                    <li class="list-inline-item" ><a href="{{route('front-page')}}"><span >Go Back</span></a></li>
+                                    
                                 </ul>
                             </div>
           
