@@ -316,173 +316,173 @@ canvas {
 
 @-webkit-keyframes flicker {
   0% {
-    opacity: 0.5074520851;
+    opacity: 0.3128202221;
   }
 
   5% {
-    opacity: 0.9908823715;
+    opacity: 0.9152842495;
   }
 
   10% {
-    opacity: 0.4872488979;
+    opacity: 0.5821878933;
   }
 
   15% {
-    opacity: 0.3341225586;
+    opacity: 0.7558479457;
   }
 
   20% {
-    opacity: 0.8995136272;
+    opacity: 0.6593448526;
   }
 
   25% {
-    opacity: 0.9770979488;
+    opacity: 0.8183966798;
   }
 
   30% {
-    opacity: 0.8963849664;
+    opacity: 0.6407087447;
   }
 
   35% {
-    opacity: 0.0286381363;
+    opacity: 0.1184052603;
   }
 
   40% {
-    opacity: 0.9046264022;
+    opacity: 0.1923137041;
   }
 
   45% {
-    opacity: 0.8549206234;
+    opacity: 0.0087628257;
   }
 
   50% {
-    opacity: 0.2177253068;
+    opacity: 0.5402496169;
   }
 
   55% {
-    opacity: 0.4195530505;
+    opacity: 0.0924389858;
   }
 
   60% {
-    opacity: 0.6049364709;
+    opacity: 0.8709209614;
   }
 
   65% {
-    opacity: 0.2162408881;
+    opacity: 0.2276192671;
   }
 
   70% {
-    opacity: 0.7881698202;
+    opacity: 0.7523392038;
   }
 
   75% {
-    opacity: 0.0701754695;
+    opacity: 0.214402654;
   }
 
   80% {
-    opacity: 0.8039519138;
+    opacity: 0.7564312547;
   }
 
   85% {
-    opacity: 0.2632943952;
+    opacity: 0.7685939423;
   }
 
   90% {
-    opacity: 0.2594380614;
+    opacity: 0.4352786046;
   }
 
   95% {
-    opacity: 0.8803802866;
+    opacity: 0.7652957347;
   }
 
   100% {
-    opacity: 0.0283285172;
+    opacity: 0.3256020537;
   }
 }
 
 @keyframes flicker {
   0% {
-    opacity: 0.5074520851;
+    opacity: 0.3128202221;
   }
 
   5% {
-    opacity: 0.9908823715;
+    opacity: 0.9152842495;
   }
 
   10% {
-    opacity: 0.4872488979;
+    opacity: 0.5821878933;
   }
 
   15% {
-    opacity: 0.3341225586;
+    opacity: 0.7558479457;
   }
 
   20% {
-    opacity: 0.8995136272;
+    opacity: 0.6593448526;
   }
 
   25% {
-    opacity: 0.9770979488;
+    opacity: 0.8183966798;
   }
 
   30% {
-    opacity: 0.8963849664;
+    opacity: 0.6407087447;
   }
 
   35% {
-    opacity: 0.0286381363;
+    opacity: 0.1184052603;
   }
 
   40% {
-    opacity: 0.9046264022;
+    opacity: 0.1923137041;
   }
 
   45% {
-    opacity: 0.8549206234;
+    opacity: 0.0087628257;
   }
 
   50% {
-    opacity: 0.2177253068;
+    opacity: 0.5402496169;
   }
 
   55% {
-    opacity: 0.4195530505;
+    opacity: 0.0924389858;
   }
 
   60% {
-    opacity: 0.6049364709;
+    opacity: 0.8709209614;
   }
 
   65% {
-    opacity: 0.2162408881;
+    opacity: 0.2276192671;
   }
 
   70% {
-    opacity: 0.7881698202;
+    opacity: 0.7523392038;
   }
 
   75% {
-    opacity: 0.0701754695;
+    opacity: 0.214402654;
   }
 
   80% {
-    opacity: 0.8039519138;
+    opacity: 0.7564312547;
   }
 
   85% {
-    opacity: 0.2632943952;
+    opacity: 0.7685939423;
   }
 
   90% {
-    opacity: 0.2594380614;
+    opacity: 0.4352786046;
   }
 
   95% {
-    opacity: 0.8803802866;
+    opacity: 0.7652957347;
   }
 
   100% {
-    opacity: 0.0283285172;
+    opacity: 0.3256020537;
   }
 }
 
@@ -1178,5 +1178,101 @@ canvas {
 
 .list-inline a:hover {
   color: gold;
+}
+
+.sliderWrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+a {
+  color: #3c376f;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 20px 5px;
+}
+
+a span i {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  outline: 0;
+  -webkit-transform: translateX(0px);
+  transform: translateX(0px);
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+
+a.previous span:hover i {
+  -webkit-transform: translateX(-10px) scale(1.2);
+  transform: translateX(-10px) scale(1.2);
+}
+
+a.next span:hover i {
+  -webkit-transform: translateX(10px) scale(1.2);
+  transform: translateX(10px) scale(1.2);
+}
+
+.slider-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.slider-nav li {
+  flex: 2;
+  text-align: center;
+  display: flex;
+}
+
+img {
+  max-width: 100%;
+  display: none;
+  box-shadow: 10px 10px 20px 0 rgba(94, 47, 59, 0.2);
+}
+
+img.active {
+  display: block;
+  -webkit-animation: fadeImg 0.8s;
+  animation: fadeImg 0.8s;
+}
+
+.slider-nav .arrow {
+  flex: 0 0 15%;
+}
+
+.slider-nav a {
+  flex-basis: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.slider-nav span {
+  display: block;
+  width: 100%;
+}
+
+@-webkit-keyframes fadeImg {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeImg {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
