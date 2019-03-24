@@ -116,10 +116,10 @@
                                     <li><a href="#"></a></li>
                                 </ul>
                             </div>
-                            <div class="col-lg-4 col-md-5 col-sm-6 m0-a">
+                            <div class="col-lg-4 col-md-5 col-sm-6 m0-a text-cener">
                                     <span class="">Go Back</span>
                                     <ul class="list-inline">
-                                        <li><a href="#"></a></li>
+                                        <li><a href="{{route('front-page')}}"></a></li>
                                     </ul>
                                 </div>
 
