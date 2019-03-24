@@ -23,4 +23,4 @@ mix.sass('resources/sass/owl.carousel.min.scss', 'public/css');
 
  /* CORE SCRIPTS */
 mix.js('resources/js/starwave.js', 'public/js');
-mix.js('resources/js/jquery.min.owl.js', 'public/js');
+mix.js('resources/js/owl.carousel.min.js', 'public/js');
