@@ -37,7 +37,7 @@ class PageController extends Controller
     {
 
          $work = Project::where('slug','=',$slug)->get()->first();
-dd($work);
+
          return view('singleProject')->with([
             'work' => $work,
         ]); 
