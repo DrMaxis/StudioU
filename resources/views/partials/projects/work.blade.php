@@ -1,7 +1,7 @@
 <!--/-/-/-/-/-/-/-/-/
     Begin New & Featured Products
 -/-/-/-/-/-/-/-/-/-->
-<div class="new-products-banner pb-100">
+<div class="new-products-banner vc pb-100">
         <div class="container">
             <div class="row mb-100">
                 <!--/-/-/-/-/-/-/-/-/ 
