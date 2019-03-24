@@ -12,16 +12,13 @@
                 <div class="intro-secton" {{-- style="background: rgba(0,0,0,0) url({{asset('assets/imgs/overlays/newtv2-1.png')}}) no-repeat scroll center center / cover"
                     --}}>
 
-                    <h1>
-                        Intro
-                    </h1>
-
+                    
 
                     <div class="col-md-6 col-sm-6" style="margin:0 auto;">
                             <!-- Single Blog Start -->
                             <div class="single-blog">
                                 <div class="blog-img">
-                                    <a href="blog-details.html"><img src="{{asset('assets/imgs/avi/avi.png')}}" alt="blog-image"></a>
+                                    <a href="#"><img class="avi-img" src="{{asset('assets/imgs/avi/avi.png')}}" alt="avi-image"></a>
                                 </div>
 
                                 <h2>Welcome</h2>
