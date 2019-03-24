@@ -672,15 +672,13 @@ $screen-background:#121010;
 
 
 .img-banner-r {
-  background: #111845a6;
+  background: #000000a6;
   box-sizing: border-box;
   overflow: hidden;
-  box-shadow: 0 20px 50px rgb(23, 32, 90);
-  border: 2px solid #2a3cad;
+  box-shadow: 0 20px 50px #000000;
+  border: 2px solid #000000;
   padding: 20px;
-
 }
-
 .img-banner-r span::before {
   content: '';
   position: absolute;
@@ -717,11 +715,10 @@ $screen-background:#121010;
 }
 
 .img-banner-content-r {
-  border: 1px solid #f0a591;
+  border: 1px solid #495057;
   padding: 20px;
   text-align: center;
   box-shadow: 0 5px 10px rgba(9, 0, 0, 0.5);
-
 }
 
 
