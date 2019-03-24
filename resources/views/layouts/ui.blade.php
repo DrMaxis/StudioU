@@ -89,6 +89,7 @@
 
               
   <script src="{{asset('js/starwave.js')}}"></script>
+  <script src="{{asset('js/jqterminal.js')}}"></script>
 
 
 </body>
