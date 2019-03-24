@@ -28,7 +28,7 @@
                         <section class="xeny-box stretch">
                             <section>
                                 <section class="xenx-box">
-                                    <section id="main-sec" style="margin-top:25px;" class="scrollable padder-lg w-f-md">
+                                    <section id="main-sec" class="scrollable padder-lg w-f-md">
 
 
                                         <div class="row row-sm">
