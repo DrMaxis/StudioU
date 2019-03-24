@@ -21,7 +21,7 @@
                             <!-- Single Blog Start -->
                             <div class="single-blog">
                                 <div class="blog-img">
-                                    <a href="blog-details.html"><img src="{{asset('assets/imgs/avi/face.jpg')}}" alt="blog-image"></a>
+                                    <a href="blog-details.html"><img src="{{asset('assets/imgs/avi/avi.png')}}" alt="blog-image"></a>
                                 </div>
 
                                 <h2>Welcome</h2>
