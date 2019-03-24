@@ -60,7 +60,7 @@
 
 
 (function () {
-    const items = document.querySelectorAll('scimg');
+    const items = document.querySelectorAll('#scimg');
 const itemCount = items.length;
 const nextItem = document.querySelector('.next');
 const previousItem = document.querySelector('.previous');

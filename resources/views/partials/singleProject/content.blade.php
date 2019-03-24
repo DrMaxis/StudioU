@@ -21,9 +21,9 @@
                                     <div class="blog-img">
                                             <div class="sliderWrapper">
                                                     <div class="slider">
-                                                      <img class="active" src="https://source.unsplash.com/gKk9rpyDryU">
-                                                      <img src="https://source.unsplash.com/VFGEhLznjPU">
-                                                      <img src="https://source.unsplash.com/InR-EhiO_js">
+                                                      <img id="scimg" class="active" src="https://source.unsplash.com/gKk9rpyDryU">
+                                                      <img id="scimg" src="https://source.unsplash.com/VFGEhLznjPU">
+                                                      <img id="scimg" src="https://source.unsplash.com/InR-EhiO_js">
                                                     </div>
                                                     <nav class="slider-nav">
                                                       <ul>
