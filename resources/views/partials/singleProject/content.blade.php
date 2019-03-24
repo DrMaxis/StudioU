@@ -1,5 +1,5 @@
-<!-- Privacy Policy Start 
-
+Privacy Policy Start
+<!--
 <div class="single-project pb-100 vc">
     <div class="container">
         <div class="row">
@@ -64,8 +64,8 @@
 </div>
 {{--
 <!-- Container End -->--}}
-</div>-->
-
+</div>
+-->
 <div class="project-content-area ptb-100 vc mt-40">
     <div class="container">
         <div class="row">
@@ -94,11 +94,43 @@
                     <div class="project-img project-single-img">
                         <div class="row">
                             <div class="col-sm-6 mt-30">
-                                <img src="{{asset('assets/imgs/dummy/10.jpg')}}" alt="blog-image">
+                                {{-- <img src="{{asset('assets/imgs/dummy/10.jpg')}}" alt="blog-image"> --}}
+                                <div class="single-blog">
+
+                                    <div class="blog-img">
+                                        <div class="catProductSlider">
+
+                                            <div class="catProductSlideViewer" style="overflow:hidden;">
+                                                <div class="owl-carousel">
+
+
+                                                    <div class="item">
+
+                        
+                                  <img  style="max-width:100%; max-height:100%;" src="{{-- {{productImage($product->image)}} --}}" alt="Showcase Image" />
+                                  
+                
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        {{--
+                                        <div class="container">
+                                            <div class="xen-tube catProductSlideButtons">
+
+                                            </div>
+                                        </div> --}}
+
+                                    </div>
+
+
+
+                                </div>
                             </div>
-                            <div class="col-sm-6 mt-30">
+                           {{--  <div class="col-sm-6 mt-30">
                                 <img src="{{asset('assets/imgs/dummy/10.jpg')}}" alt="blog-image">
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                     <p class="mb-20">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born
@@ -111,20 +143,20 @@
                     <div class="project-share mtb-50">
                         <div class="row">
                             <div class="col-lg-4 col-md-5 col-sm-6 m0-a">
-                                
+
                                 <ul class="list-inline">
                                     <li><a href="#"><span class="pull-left">Live Site</span></a></li>
                                 </ul>
                             </div>
                             <div class="col-lg-4 col-md-5 col-sm-6 m0-a text-center">
-                                    
-                                    <ul class="list-inline">
-                                        <li><a href="{{route('front-page')}}"><span class="">Go Back</span></a></li>
-                                    </ul>
-                                </div>
+
+                                <ul class="list-inline">
+                                    <li><a href="{{route('front-page')}}"><span class="">Go Back</span></a></li>
+                                </ul>
+                            </div>
 
                             <div class="col-lg-4 col-md-5 col-sm-6 m0-a">
-                                
+
                                 <ul class="list-inline">
                                     <li><a href="#"><span class="pull-right">GitHub Project</span></a></li>
                                 </ul>

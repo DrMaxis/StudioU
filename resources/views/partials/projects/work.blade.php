@@ -15,7 +15,7 @@
           
                             <a href="#">
                           
-                                <img class="banner-main-img" src="{{ asset('storage/assets/imgs/no-img.jpg')}}" alt="product-banner">
+                                <img class="banner-main-img" src="{{ asset('storage/assets/imgs/no-img.jpg')}}" alt="project-banner">
                             </a>
         
                         
@@ -37,7 +37,7 @@
               
                                 <a href="#">
                               
-                                    <img class="banner-main-img" src="{{ asset('storage/assets/imgs/no-img.jpg')}}" alt="product-banner">
+                                    <img class="banner-main-img" src="{{ asset('storage/assets/imgs/no-img.jpg')}}" alt="project-banner">
                                 </a>
             
                             
