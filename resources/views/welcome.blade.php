@@ -2,12 +2,7 @@
 
 @section('xcss')
 <style>
-<!--
-@keyframes scroll {
-	0% { height: 0 }
-	100% { height: 100%; }
-} 
--->
+
 @keyframes type { 
   from { width: 0; } 
 } 
