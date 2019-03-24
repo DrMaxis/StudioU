@@ -15,6 +15,8 @@
                 <h1>
                     Intro
                 </h1>
+
+                <img src="{{asset('assets/imgs/overlays/newtv2-1.png')}}" alt="">
             </div>
         </div>
     </div>
