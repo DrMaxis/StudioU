@@ -498,8 +498,7 @@ $screen-background:#121010;
   animation:overlay-anim 5s linear;
   animation-fill-mode:forwards;
 }
-
-img.overlay {
+.overlay-img {
   width: 100%;
   /* height: 100%; */
   display: block;
