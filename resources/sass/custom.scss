@@ -355,7 +355,7 @@ $screen-background:#121010;
     }
   }
 }
-.container{
+.tvContainer{
   background:$screen-background;
   width:800px;
   height:600px;
@@ -393,7 +393,7 @@ $screen-background:#121010;
     pointer-events:none;
   }
 }
-#switch:checked~.container::after{
+#switch:checked~.tvContainer::after{
   animation:flicker 0.15s infinite;
 }
 
@@ -461,11 +461,11 @@ $screen-background:#121010;
   height:100%;
   border:none;
 }
-#switch~.container>.screen{
+#switch~.tvContainer>.screen{
   animation: turn-off 0.55s $ease-out-quint;
   animation-fill-mode:forwards;
 }
-#switch:checked~.container>.screen{
+#switch:checked~.tvContainer>.screen{
   animation: turn-on 4s linear;
   animation-fill-mode:forwards;
 }
@@ -494,7 +494,7 @@ $screen-background:#121010;
   visibility:hidden;
   pointer-events:none;
 }
-#switch:checked~.container .overlay{
+#switch:checked~.tvContainer .overlay{
   animation:overlay-anim 5s linear;
   animation-fill-mode:forwards;
 }

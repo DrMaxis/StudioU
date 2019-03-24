@@ -316,177 +316,177 @@ canvas {
 
 @-webkit-keyframes flicker {
   0% {
-    opacity: 0.8514252846;
+    opacity: 0.3795571437;
   }
 
   5% {
-    opacity: 0.503552234;
+    opacity: 0.6274996183;
   }
 
   10% {
-    opacity: 0.0343942162;
+    opacity: 0.8911995417;
   }
 
   15% {
-    opacity: 0.7849565415;
+    opacity: 0.2946815445;
   }
 
   20% {
-    opacity: 0.5588028057;
+    opacity: 0.7569695819;
   }
 
   25% {
-    opacity: 0.8921870032;
+    opacity: 0.9641198501;
   }
 
   30% {
-    opacity: 0.7425790239;
+    opacity: 0.4131823697;
   }
 
   35% {
-    opacity: 0.2055671045;
+    opacity: 0.6632705749;
   }
 
   40% {
-    opacity: 0.0775750325;
+    opacity: 0.929836728;
   }
 
   45% {
-    opacity: 0.7247011991;
+    opacity: 0.4458354541;
   }
 
   50% {
-    opacity: 0.2002432967;
+    opacity: 0.4358240296;
   }
 
   55% {
-    opacity: 0.8112001745;
+    opacity: 0.1498475926;
   }
 
   60% {
-    opacity: 0.8266658061;
+    opacity: 0.9271527811;
   }
 
   65% {
-    opacity: 0.7809792438;
+    opacity: 0.0178566897;
   }
 
   70% {
-    opacity: 0.2698109405;
+    opacity: 0.0187459058;
   }
 
   75% {
-    opacity: 0.453716528;
+    opacity: 0.3145082813;
   }
 
   80% {
-    opacity: 0.3631403058;
+    opacity: 0.0073203653;
   }
 
   85% {
-    opacity: 0.1378193783;
+    opacity: 0.9916754591;
   }
 
   90% {
-    opacity: 0.8640143982;
+    opacity: 0.0409465989;
   }
 
   95% {
-    opacity: 0.9267161241;
+    opacity: 0.679445997;
   }
 
   100% {
-    opacity: 0.4047974852;
+    opacity: 0.3994157029;
   }
 }
 
 @keyframes flicker {
   0% {
-    opacity: 0.8514252846;
+    opacity: 0.3795571437;
   }
 
   5% {
-    opacity: 0.503552234;
+    opacity: 0.6274996183;
   }
 
   10% {
-    opacity: 0.0343942162;
+    opacity: 0.8911995417;
   }
 
   15% {
-    opacity: 0.7849565415;
+    opacity: 0.2946815445;
   }
 
   20% {
-    opacity: 0.5588028057;
+    opacity: 0.7569695819;
   }
 
   25% {
-    opacity: 0.8921870032;
+    opacity: 0.9641198501;
   }
 
   30% {
-    opacity: 0.7425790239;
+    opacity: 0.4131823697;
   }
 
   35% {
-    opacity: 0.2055671045;
+    opacity: 0.6632705749;
   }
 
   40% {
-    opacity: 0.0775750325;
+    opacity: 0.929836728;
   }
 
   45% {
-    opacity: 0.7247011991;
+    opacity: 0.4458354541;
   }
 
   50% {
-    opacity: 0.2002432967;
+    opacity: 0.4358240296;
   }
 
   55% {
-    opacity: 0.8112001745;
+    opacity: 0.1498475926;
   }
 
   60% {
-    opacity: 0.8266658061;
+    opacity: 0.9271527811;
   }
 
   65% {
-    opacity: 0.7809792438;
+    opacity: 0.0178566897;
   }
 
   70% {
-    opacity: 0.2698109405;
+    opacity: 0.0187459058;
   }
 
   75% {
-    opacity: 0.453716528;
+    opacity: 0.3145082813;
   }
 
   80% {
-    opacity: 0.3631403058;
+    opacity: 0.0073203653;
   }
 
   85% {
-    opacity: 0.1378193783;
+    opacity: 0.9916754591;
   }
 
   90% {
-    opacity: 0.8640143982;
+    opacity: 0.0409465989;
   }
 
   95% {
-    opacity: 0.9267161241;
+    opacity: 0.679445997;
   }
 
   100% {
-    opacity: 0.4047974852;
+    opacity: 0.3994157029;
   }
 }
 
-.container {
+.tvContainer {
   background: #121010;
   width: 800px;
   height: 600px;
@@ -496,7 +496,7 @@ canvas {
   border: 2px solid #666;
 }
 
-.container::after {
+.tvContainer::after {
   content: " ";
   display: block;
   position: absolute;
@@ -510,7 +510,7 @@ canvas {
   pointer-events: none;
 }
 
-.container::before {
+.tvContainer::before {
   content: " ";
   display: block;
   position: absolute;
@@ -524,7 +524,7 @@ canvas {
   pointer-events: none;
 }
 
-#switch:checked ~ .container::after {
+#switch:checked ~ .tvContainer::after {
   -webkit-animation: flicker 0.15s infinite;
           animation: flicker 0.15s infinite;
 }
@@ -677,14 +677,14 @@ canvas {
   border: none;
 }
 
-#switch ~ .container > .screen {
+#switch ~ .tvContainer > .screen {
   -webkit-animation: turn-off 0.55s cubic-bezier(0.23, 1, 0.32, 1);
           animation: turn-off 0.55s cubic-bezier(0.23, 1, 0.32, 1);
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
 
-#switch:checked ~ .container > .screen {
+#switch:checked ~ .tvContainer > .screen {
   -webkit-animation: turn-on 4s linear;
           animation: turn-on 4s linear;
   -webkit-animation-fill-mode: forwards;
@@ -737,7 +737,7 @@ canvas {
   pointer-events: none;
 }
 
-#switch:checked ~ .container .overlay {
+#switch:checked ~ .tvContainer .overlay {
   -webkit-animation: overlay-anim 5s linear;
           animation: overlay-anim 5s linear;
   -webkit-animation-fill-mode: forwards;
