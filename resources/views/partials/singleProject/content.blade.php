@@ -65,7 +65,7 @@
                     <!--  Blog-Share Start  -->
                     <div class="project-share mtb-50">
                         <div class="row">
-                            <div class="col-lg-4 col-md-5 col-sm-6 m0-a">
+                            <div class="col-lg-5 col-md-5 col-sm-6 m0-a">
 
                                 <ul class="list-inline">
                                     <li class="list-inline-item" ><a href="{{$work->live_link}}"><span >Live Site</span></a></li>
