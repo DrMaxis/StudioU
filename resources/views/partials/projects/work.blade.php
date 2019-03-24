@@ -51,12 +51,12 @@
 
         
             <div class="intro-section-links">
-                    <div class="col-md-6 col-sm-3 m0-a">
+                    <div class="col-md-6 col-sm-3 m0-a mt-40">
                         <div class="intro-links">
 
                             <ul class="list-inline">
                                 <li class="intro-link list-inline-item">
-                                    <a href="{{route('works')}}">Current Work</a>
+                                    <a href="{{route('front-page')}}">Home</a>
                                 </li>
                                 <li class="intro-link list-inline-item">
                                     <a href="https://github.io/DrMaxis">Github</a>
@@ -70,7 +70,7 @@
 
                 </div>
 
-                
+
         </div>
         <!--/-/-/-/-/-/-/-/-/ 
                 End Container 
