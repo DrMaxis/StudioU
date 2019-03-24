@@ -7,7 +7,7 @@
     <div class="row">
 
 
-        <div class="col">
+        <div class="col-md-6">
 
 
             <div class="intro-secton">
