@@ -65,13 +65,13 @@
    {{--  <!-- Container End --> --}}
 </div>-->
 
-<div class="blog-area ptb-100 vc">
+<div class="project-content-area ptb-100 vc mt-40">
             <div class="container">
                 <div class="row">
 
 <div class="col-md-8 col-sm-12 m0-a">
                         <!-- Blog Details Start -->
-                        <div class="blog-details">
+                        <div class="project-details">
                             <div class="blog-img">
                                 <img src="{{asset('assets/imgs/dummy/5.jpg')}}" alt="blog-image">
                             </div>
@@ -82,10 +82,10 @@
                             <p class="mb-20">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.</p>
                             <div class="blog-img blog-single-img">
                                 <div class="row">
-                                    <div class="col-sm-6">
+                                    <div class="col-sm-6 mt-30">
                                         <img src="{{asset('assets/imgs/dummy/10.jpg')}}" alt="blog-image">
                                     </div>
-                                    <div class="col-sm-6">
+                                    <div class="col-sm-6 mt-30">
                                         <img src="{{asset('assets/imgs/dummy/10.jpg')}}" alt="blog-image">
                                     </div>
                                 </div>
