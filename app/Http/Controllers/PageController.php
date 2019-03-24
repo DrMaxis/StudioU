@@ -28,6 +28,7 @@ class PageController extends Controller
         $aboutMe = About::all()->first();
         return view('projects')->with([
             'works' => $works,
+            'aboutMe' => $aboutMe,
         ]);
     }
 
