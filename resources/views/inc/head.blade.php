@@ -93,7 +93,7 @@
   
   
   
-    <title>StudioU Presents</title>
+    <title>Nathan Antwi || StudioU</title>
   
   
   
