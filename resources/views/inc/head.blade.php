@@ -8,8 +8,8 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-    <meta name="description" content="XenColor - Find your Xen with XenColor's aesthetically pleasing and energy efficient RGB LED lights" />
-    <meta name="keywords" content="Modern, LED, RGB, Colored Lighting, Xen, Aesthetics, Vaporwave, Psychedelics, Vibe"/>
+    <meta name="description" content="Studio Unwanted Lead Developer Nathan Antwi" />
+    <meta name="keywords" content="Web, Development, Nathan, Antwi, Studio, Unwanted"/>
     <link rel="canonical" href="@yield('canonical-url')"/>
   
   
@@ -27,16 +27,18 @@
       Favicon 
   -/-/-/-/-/-/-/-/-/-->
   
-  <link rel="apple-touch-icon" sizes="180x180" href="{{asset('pubassets/imgs/favicon/apple-touch-icon.png')}}">
-  <link rel="icon" type="image/png" sizes="32x32" href="{{asset('pubassets/imgs/favicon/favicon-32x32.png')}}">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{asset('pubassets/imgs/favicon/favicon-16x16.png')}}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{asset('assets/imgs/favicon/apple-touch-icon.png')}}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{asset('assets/imgs/favicon/favicon-32x32.png')}}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{asset('assets/imgs/favicon/favicon-16x16.png')}}">
   <link rel="manifest" href="{{asset('pubassets/imgs/favicon/site.webmanifest')}}">
   <link rel="mask-icon" href="{{asset('pubassets/imgs/favicon/safari-pinned-tab.svg')}}" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
 
   
-
+ <!--/-/-/-/-/-/-/-/-/ 
+      SVG
+  -/-/-/-/-/-/-/-/-/-->
   
   
     <svg style="position: absolute; width: 0; height: 0;" width="0" height="0" version="1.1" xmlns="http://www.w3.org/2000/svg"
@@ -72,7 +74,9 @@
       </filter>
     </svg>
 
-
+ <!--/-/-/-/-/-/-/-/-/ 
+    STYLE SHEETS
+  -/-/-/-/-/-/-/-/-/-->
 
     <link rel="stylesheet" href="{{asset('css/custom.css')}}">
     <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
