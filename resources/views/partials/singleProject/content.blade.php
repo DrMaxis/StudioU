@@ -60,7 +60,7 @@
                             </div> --}}
                         </div>
                     </div>
-                    <p class="mb-20">{!!$work->bottom_description!!}</p>
+                    <p class="mb-20 tpdesc">{!!$work->bottom_description!!}</p>
 
                     <!--  Blog-Share Start  -->
                     <div class="project-share mtb-50">
