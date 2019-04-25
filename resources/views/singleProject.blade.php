@@ -21,9 +21,7 @@
 
 
     
-/*----------------------------
-    9. Owl Carousel
-    -----------------------------*/
+
  
         $('.owl-carousel').owlCarousel({
             stagePadding: 200,

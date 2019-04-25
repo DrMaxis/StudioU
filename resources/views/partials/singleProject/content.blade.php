@@ -3,7 +3,7 @@
         <div class="row">
 
             <div class="col-md-8 col-sm-12 m0-a">
-                <!-- Blog Details Start -->
+            
                 <div class="project-details">
                     <div class="project-img">
                         <img src="{{contentImage($work->image)}}" alt="blog-image">
@@ -62,7 +62,7 @@
                     </div>
                     <div class="mb-20 tpdesc">{!!$work->bottom_description!!}</div>
 
-                    <!--  Blog-Share Start  -->
+               
                     <div class="project-share mtb-50">
                         <div class="row">
                             <div class="col-lg-5 col-md-5 col-sm-6 m0-a">
@@ -76,23 +76,12 @@
                             </div>
           
                         </div>
-                        <!-- End of Row -->
+                      
                     </div>
-                    <!--  Blog-Share End  -->
-                    <!--  Blog-Pager Start  -->
-
-                    <!--  Blog-Pager End  -->
+                 
+                  
                 </div>
-                <!-- Blog Details End -->
-                <!-- Blog Realated Post Start -->
-
-                <!-- Blog Realated Post Start -->
-                <!-- Comment Area Start -->
-
-                <!-- Comment Area End -->
-                <!-- Contact Email Area Start -->
-
-                <!-- Contact Email Area End -->
+                
             </div>
         </div>
     </div>

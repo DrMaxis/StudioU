@@ -14,7 +14,7 @@
 
 @foreach($aboutMe -> take(1) as $myInfo) 
                     <div class="col-md-6 col-sm-6 m0-a">
-                        <!-- Single Blog Start -->
+                
                         
                         <div class="single-blog">
                             <div class="blog-img">
@@ -28,7 +28,7 @@
                                 <p class="mt-30">{!!$myInfo->description!!}</p>
                             </div>
                         </div>
-                        <!-- Single Blog End -->
+                  
                     </div>
                     @endforeach
                 </div>
