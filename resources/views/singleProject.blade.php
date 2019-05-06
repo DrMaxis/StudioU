@@ -20,43 +20,6 @@
 <script>
 
 
-    
-
- 
-        $('.owl-carousel').owlCarousel({
-            stagePadding: 200,
-            loop: true,
-            margin: 10,
-            nav: false,
-            items: 1,
-            dots: false,
-            autoplay: true,
-            lazyLoad: true,
-            responsive: {
-                0: {
-                    items: 1,
-                    stagePadding: 30
-                },
-                600: {
-                    items: 1,
-                    stagePadding: 100
-                },
-                1000: {
-                    items: 1,
-                    stagePadding: 200
-                }
-            }
-        })
-
-
-
-
-
-</script>
-
-<script>
-
-
 (function () {
     const items = document.querySelectorAll('#scimg');
 const itemCount = items.length;
