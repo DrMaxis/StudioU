@@ -12,25 +12,27 @@
                 <div class="intro-secton">
 
 
-@foreach($aboutMe -> take(1) as $myInfo) 
+        @if(!empty($aboutMe))
+
                     <div class="col-md-6 col-sm-6 m0-a">
                 
                         
                         <div class="single-blog">
                             <div class="blog-img">
 
-                                <a href="#"><img class="avi-img" src="{{contentImage($myInfo->image)}}" alt="avi-image"></a>
+                                <a href="#"><img class="avi-img" src="{{contentImage($aboutMe->image)}}" alt="avi-image"></a>
                             </div>
 
-                            <h2>{!!$myInfo->title!!}</h2>
+                            <h2>{!!$aboutMe->title!!}</h2>
 
                             <div class="intro-content">
-                                <p class="mt-30">{!!$myInfo->description!!}</p>
+                                <p class="mt-30">{!!$aboutMe->description!!}</p>
                             </div>
                         </div>
                   
                     </div>
-                    @endforeach
+                    @endif
+                 
                 </div>
                 <div class="intro-section-links">
                     <div class="col-md-6 col-sm-3 m0-a">
@@ -44,7 +46,7 @@
                                     <a href="https://github.com/DrMaxis">Github</a>
                                 </li>
                                 <li class="intro-link list-inline-item">
-                                    <a href="{{getResume($myInfo->resume)}}">Resume</a>
+                                    <a href="{{getResume($aboutMe->resume)}}">Resume</a>
                                 </li>
                             </ul>
                         </div>

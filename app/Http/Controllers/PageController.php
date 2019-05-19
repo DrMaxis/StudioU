@@ -14,7 +14,7 @@ class PageController extends Controller
     public function frontPage()
     {
 
-        $aboutMe = About::all();
+        $aboutMe = About::first();
 
         return view('welcome')->with([
             'aboutMe' => $aboutMe,
