@@ -97,7 +97,7 @@
   
   
   
-    <title>Nathan Antwi || StudioU</title>
+    <title>Nathan Antwi || Studio Unwanted</title>
   
   
   
