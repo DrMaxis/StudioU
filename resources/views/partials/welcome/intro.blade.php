@@ -54,10 +54,10 @@
 
                 </div>
 
-                <figure><embed src="https://wakatime.com/share/@Lotus/af48cbd3-673e-4eba-8ba3-a389d020f22c.svg"></embed></figure>
+                {{-- <figure><embed src="https://wakatime.com/share/@Lotus/af48cbd3-673e-4eba-8ba3-a389d020f22c.svg"></embed></figure>
 
 
-                <figure><embed src="https://wakatime.com/share/@Lotus/c5d7a4fe-ee34-474c-8425-7524b0119609.svg"></embed></figure>
+                <figure><embed src="https://wakatime.com/share/@Lotus/c5d7a4fe-ee34-474c-8425-7524b0119609.svg"></embed></figure> --}}
             </div>
         </div>
     </div>
